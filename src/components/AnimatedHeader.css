@@ -1,0 +1,232 @@
+.animated-header {
+    font-size: 48px;
+    margin-right: 0%;
+    font-weight: bold;
+  }
+  
+  .animated-letter-0 {
+    animation: animateLetters 2s linear forwards;
+    color: blueviolet;
+    display: inline-block;
+    opacity: 0;
+  }
+  
+  .animated-letter-1 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 5s;
+  }
+  
+  .animated-letter-2 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    
+    animation-delay: 10s;
+  }
+  
+  .animated-letter-3 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    color: blueviolet;
+    animation-delay: 15s;
+  }
+  
+  .animated-letter-4 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 20s;
+  }
+  
+  .animated-letter-5 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 25s;
+  }
+  
+  .animated-letter-6 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 30s;
+  }
+  
+  .animated-letter-7 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+   
+    opacity: 0;
+    animation-delay: 35s;
+  }
+  
+  .animated-letter-8 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 40s;
+  }
+  
+  .animated-letter-9 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    color: blueviolet;
+    animation-delay: 45s;
+  }
+  
+  .animated-letter-10 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    color: blueviolet;
+    animation-delay: 50s;
+  }
+  
+  .animated-letter-11 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    color: blueviolet;
+    animation-delay: 55s;
+  }
+  
+  .animated-letter-12 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    color: blueviolet;
+    animation-delay: 60s;
+  }
+  
+  .animated-letter-13 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    color: blueviolet;
+    animation-delay: 65s;
+  }
+  
+  .animated-letter-14 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 70s;
+  }
+  
+  .animated-letter-15 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 75s;
+  }
+  
+  .animated-letter-16 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 80s;
+  }
+  
+  .animated-letter-17 {
+    animation: animateLetters 2s linear forwards;
+    display: inline-block;
+    opacity: 0;
+    animation-delay: 85s;
+  }
+  
+  @keyframes animateLetters {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 1080px) {
+    .animated-header {
+      font-size: 30px; /* Decrease font size for tablet */
+    }
+  
+    .animated-letter-0,
+    .animated-letter-1,
+    .animated-letter-2,
+    .animated-letter-3,
+    .animated-letter-4,
+    .animated-letter-5,
+    .animated-letter-6,
+    .animated-letter-7,
+    .animated-letter-8,
+    .animated-letter-9,
+    .animated-letter-10,
+    .animated-letter-11,
+    .animated-letter-12,
+    .animated-letter-13,
+    .animated-letter-14,
+    .animated-letter-15,
+    .animated-letter-16,
+    .animated-letter-17,
+    .animated-letter-18 {
+      font-size: 20px; /* Decrease letter size for tablet */
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .animated-header {
+      font-size: 36px; /* Decrease font size for tablet */
+    }
+  
+    .animated-letter-0,
+    .animated-letter-1,
+    .animated-letter-2,
+    .animated-letter-3,
+    .animated-letter-4,
+    .animated-letter-5,
+    .animated-letter-6,
+    .animated-letter-7,
+    .animated-letter-8,
+    .animated-letter-9,
+    .animated-letter-10,
+    .animated-letter-11,
+    .animated-letter-12,
+    .animated-letter-13,
+    .animated-letter-14,
+    .animated-letter-15,
+    .animated-letter-16,
+    .animated-letter-17,
+    .animated-letter-18 {
+      font-size: 24px; /* Decrease letter size for tablet */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .animated-header {
+      font-size: 24px; /* Further decrease font size for mobile */
+    }
+  
+    .animated-letter-0,
+    .animated-letter-1,
+    .animated-letter-2,
+    .animated-letter-3,
+    .animated-letter-4,
+    .animated-letter-5,
+    .animated-letter-6,
+    .animated-letter-7,
+    .animated-letter-8,
+    .animated-letter-9,
+    .animated-letter-10,
+    .animated-letter-11,
+    .animated-letter-12,
+    .animated-letter-13,
+    .animated-letter-14,
+    .animated-letter-15,
+    .animated-letter-16,
+    .animated-letter-17,.animated-letter-18 {
+      font-size: 18px; /* Further decrease letter size for mobile */
+    }
+  }
+  

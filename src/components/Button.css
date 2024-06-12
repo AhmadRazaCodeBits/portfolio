@@ -1,0 +1,14 @@
+.ButtonContainer{
+    height: 40px;
+    width: 200px;
+}
+.ButtonContainer button{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.ButtonContainer button:hover{
+    opacity: 0.8;
+}

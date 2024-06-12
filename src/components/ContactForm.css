@@ -1,0 +1,145 @@
+.contact-container {
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+    flex-wrap: wrap;
+  }
+  .heading h1 {
+   text-align: center;
+   color:#007bff
+  }
+  .contact-info {
+    display: flex;
+    
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-item span {
+    margin-left: 10px;
+  }
+  
+  .contact-form {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .success-message,
+  .error-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
+  
+  .error-message {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+/* Desktop and Laptop */
+/* Desktop and Laptop */
+/* @media screen and (min-width: 992px) {
+  .contact-container {
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+} */
+
+/* Tablet */
+@media screen and (max-width: 917px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .contact-info {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+/* Mobile */
+@media screen and (max-width: 460px) {
+  .contact-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contact-info {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+  }
+}
+
+
+  
